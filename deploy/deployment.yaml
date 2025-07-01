@@ -17,7 +17,7 @@
 #     spec:
 #       containers:
 #       - name: devops-demo
-#         image: armankhan2004/devops-demo:v20250701123000
+#         image: armankhan2004/devops-demo:v20250701190148
 #         ports:
 #           - containerPort: 80
 apiVersion: apps/v1
@@ -39,6 +39,6 @@ spec:
     spec:
       containers:
         - name: devops-demo
-          image: armankhan2004/devops-demo:v20250701123000
+          image: armankhan2004/devops-demo:v20250701190148
           ports:
             - containerPort: 80
